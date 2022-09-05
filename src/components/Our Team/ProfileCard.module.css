@@ -1,0 +1,30 @@
+.profile-card {
+  box-shadow: 2px 3px 4px 5px rgba(0, 0, 0, 0.05);
+  max-width: 50rem;
+  height: 100%;
+  width: 80%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.person-img img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.person-details {
+  padding: 0.8rem 1.2rem;
+}
+
+.person-details h2 {
+  font-family: "Aboreto";
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.person-details h4 {
+  font-family: "Aboreto";
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,38 @@
+.profiles {
+  max-width: 100rem;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 2rem;
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.ourteam {
+    padding-bottom: 16rem;
+    padding-top: 9rem;
+    border-bottom: 0.5px solid var(--light-secondary-color);
+}
+
+.ourteam-wrapper {
+  max-width: 130rem;
+  width: 80%;
+  margin: 0rem auto;
+  padding: 2rem 0;
+}
+
+.ourteam h1 {
+  font-size: 4rem;
+  font-family: "Cabin", serif;
+  color: var(--secondary-color);
+  font-weight: 700;
+
+  /* font-weight:; */
+}
+
+.ourteam-details {
+  /* border: 1.5px solid black; */
+  width: 93%;
+  margin: 0 auto;
+}

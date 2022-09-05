@@ -1,0 +1,13 @@
+.carousel {
+    max-width: 110rem;
+    width: 80%;
+    margin: 4rem auto;
+    border: 8px solid black;
+    max-height: 4rem;
+}
+
+.slider {
+    padding-bottom: 16rem;
+    padding-top: 16rem;
+    border-bottom: 0.5px solid var(--light-secondary-color);
+}

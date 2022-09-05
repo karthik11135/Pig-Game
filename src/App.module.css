@@ -13,6 +13,14 @@
   }
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,10 +30,20 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.main {
+  /* max-width: 130rem; */
+  background-color: rgb(230, 230, 230);
+  /* width: 80%; */
+  margin: 0 auto;
+  /* margin-top: -0.9rem;
+  margin-bottom: -1.5rem; */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +54,7 @@
     transform: rotate(360deg);
   }
 }
+
+/* header {
+  height: 7rem;
+} */

@@ -1,0 +1,50 @@
+.testimonial {
+  /* border: 1px solid black; */
+  height: 70%;
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.icon {
+  position: absolute;
+}
+
+.face {
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  height: 16rem;
+  width: auto;
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-wrapper {
+  display: flex;
+  /* border: 1px solid black; */
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4rem;
+}
+
+.quotation-box {
+  position: relative;
+  /* border: 1px solid black; */
+  font-size: 2rem;
+  font-family: "Cabin";
+  flex: 2;
+  padding: 1rem;
+  color: var(--dark-color);
+  border-radius: 7px;
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.05);
+  /* border: 0.7px solid var(--secondary-color); */
+}
+
+.quotation-box h2 {
+  font-family: "Aboreto";
+}
+
+.quotation-box p {
+  font-family: "Noto Sans";
+  color: var(--secondary-color);
+}

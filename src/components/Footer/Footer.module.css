@@ -1,0 +1,56 @@
+.footer {
+  background-color: var(--dark-color);
+  padding: 2rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  max-width: 110rem;
+}
+
+.logo img {
+  width: 20%;
+}
+
+.logo img:hover {
+  animation-name: spinner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  flex: 2;
+}
+
+.contact-info h2 {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.contact-info p {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.follow-us h2 {
+  color: whitesmoke;
+  font-size: 2rem;
+}
